@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1528752866
-ModificationTime: 1665779775
+ModificationTime: 1674590713
 PfmFamily: 49
 TTFWeight: 500
 TTFWidth: 5
@@ -64,11 +64,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 82 24
+WinInfo: 64662 39 23
 OnlyBitmaps: 1
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65539 1075
+BeginChars: 65539 1078
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -7594,8 +7594,29 @@ Width: 1000
 VWidth: 0
 LayerCount: 2
 EndChar
+
+StartChar: uniFF1C
+Encoding: 65308 65308 1075
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uniFF1D
+Encoding: 65309 65309 1076
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
+
+StartChar: uniFF1E
+Encoding: 65310 65310 1077
+Width: 1000
+VWidth: 0
+LayerCount: 2
+EndChar
 EndChars
-BitmapFont: 11 1076 9 2 1
+BitmapFont: 11 1078 9 2 1
 BDFStartProperties: 39
 FONT 1 "-nerdypepper-scientifica-medium-i-normal--11-80-100-100-C-50-ISO10646-1"
 SIZE 1 "11 75 75"
@@ -9787,5 +9808,11 @@ BDFChar: 1073 57507 5 0 3 0 8
 i.-@9!+8W":]LIq
 BDFChar: 1074 582 5 0 3 0 7
 &Fc?ci5!.t
+BDFChar: 1075 65308 5 0 8 1 5
++94Y,s+!?7+92BA
+BDFChar: 1076 65309 5 0 8 2 4
+s*t(Ls*t(L
+BDFChar: 1077 65310 5 0 8 1 5
+!WW6$s*t+M!WW3#
 EndBitmapFont
 EndSplineFont
